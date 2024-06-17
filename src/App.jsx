@@ -5,6 +5,7 @@ import About from './pages/About';
 import Logement from './pages/Logement';
 import NotFound from './pages/NotFound';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -17,7 +18,9 @@ const App = () => {
         <Route path="/logement/:id" element={<Logement />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer /> 
     </Router>
+    
   );
 };
 

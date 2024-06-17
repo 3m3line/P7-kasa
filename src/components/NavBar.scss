@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin: 40px 100px;  
+    div {
+      img {
+        width: auto;
+        height: 68px;
+      }
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 57px;
+      li {
+        a {
+          text-decoration: none;
+          color: black;
+          font-size: 24px;
+          transition: text-decoration 0.3s;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }

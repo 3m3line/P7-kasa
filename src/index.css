@@ -47,5 +47,9 @@ body {
 }
 
 .content-page{
-  margin: 40px 100px;
+  margin: 0px 100px;
+}
+
+.content-page>*{
+  margin-bottom: 40px;
 }

@@ -1,0 +1,8 @@
+.LogtEncart{
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 56px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes de largeur égale */
+    gap: 50px 60px;
+}

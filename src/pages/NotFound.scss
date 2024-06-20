@@ -1,0 +1,22 @@
+.NotFound{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    .NotFound-title{
+        color: #FF6060;
+        font-size: 288px;
+        font-weight: 700;
+        line-height: 90%;
+        margin: 0;
+    }
+    .NotFound-message{
+        color: #FF6060;
+        font-size: 36px;
+        font-weight: 500;
+        margin: 139px auto;
+    }
+    .NotFound-button{
+        color: black;
+        margin-bottom: 139px;
+    }
+}

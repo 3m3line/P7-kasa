@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/LOGO.png';
 import './NavBar.scss';
 
@@ -10,10 +10,14 @@ const NavBar = () => {
         </div>
       <ul>
         <li>
-          <Link to="/">Accueil</Link>
+        <NavLink exact to="/" activeClassName="active">
+            Accueil
+          </NavLink>
         </li>
         <li>
-          <Link to="/about">À propos</Link>
+        <NavLink to="/about" activeClassName="active">
+            À propos
+          </NavLink>
         </li>
       </ul>
     </nav>

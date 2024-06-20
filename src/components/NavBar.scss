@@ -19,7 +19,8 @@ nav {
           color: black;
           font-size: 24px;
           transition: text-decoration 0.3s;
-          &:hover {
+          &:hover,
+          &.active{
             text-decoration: underline;
           }
         }

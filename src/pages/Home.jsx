@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import CardLogt from "@/components/CardLogt";
 import LogtList from '../Logement.json';
 import './Home.scss';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return(
@@ -12,11 +13,12 @@ const Home = () => {
       />
       <section className="LogtEncart">
         {LogtList.map((item) => (
-          <CardLogt
-            key={item.id}
-            imageSrc={item.cover}
-            texte={item.title}
-          />
+          <Link to={`/logement/${item.id}`} key={item.id}>
+            <CardLogt
+              imageSrc={item.cover}
+              texte={item.title}
+            />
+          </Link>
         ))}
       </section>
     </div>

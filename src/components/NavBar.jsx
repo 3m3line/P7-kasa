@@ -10,12 +10,12 @@ const NavBar = () => {
         </div>
       <ul>
         <li>
-        <NavLink exact to="/" activeClassName="active">
+        <NavLink to="/" end activeclassname="active">
             Accueil
           </NavLink>
         </li>
         <li>
-        <NavLink to="/about" activeClassName="active">
+        <NavLink to="/about" activeclassname="active">
             À propos
           </NavLink>
         </li>

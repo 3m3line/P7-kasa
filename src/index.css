@@ -39,6 +39,10 @@ body {
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  box-sizing: border-box;
+}
+*{
+  box-sizing: border-box;
 }
 
 #root {
@@ -47,10 +51,16 @@ body {
   min-height: 100vh;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+
 .content-page{
   margin: 0px 100px;
 }
 
-.content-page>*{
+.content-page>*,
+.content-page>*>*{
   margin-bottom: 40px;
 }

@@ -212,6 +212,20 @@
     "@babel/helper-validator-identifier" "^7.24.7"
     to-fast-properties "^2.0.0"
 
+"@coreui/coreui@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@coreui/coreui/-/coreui-5.0.2.tgz#d7f1e53497e2a53fa71888e7a5dfc416bff25c5b"
+  integrity sha512-ox3nnVxEvitgSMKbn5+DXMMLWgjoRKL0fnWXwA4B4eTLhnzyYBUZZAs+xHWIGRK0/PfP6cMiliYdC4Swhw/5xQ==
+
+"@coreui/react@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@coreui/react/-/react-5.1.0.tgz#c319e17877b30a6592550a9268e0241b061506ae"
+  integrity sha512-pOx4jG++YgOuuoMycbbVDnSxoPP54ZkKvxVQH4i/h38gscHBeSj2bDk7gxA29QNg3fVUZympgXpQ16C/WU0Ikw==
+  dependencies:
+    "@coreui/coreui" "^5.0.2"
+    "@popperjs/core" "^2.11.8"
+    prop-types "^15.8.1"
+
 "@esbuild/aix-ppc64@0.20.2":
   version "0.20.2"
   resolved "https://registry.yarnpkg.com/@esbuild/aix-ppc64/-/aix-ppc64-0.20.2.tgz#a70f4ac11c6a1dfc18b8bbb13284155d933b9537"
@@ -430,6 +444,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@popperjs/core@^2.11.8":
+  version "2.11.8"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
+  integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
 "@remix-run/router@1.16.1":
   version "1.16.1"

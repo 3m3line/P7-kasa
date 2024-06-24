@@ -28,8 +28,8 @@ const Carousel = ({ pictures }) => {
       </div>
       {totalSlides > 1 && (
         <div className="controls">
-          <img onClick={prevSlide} className="prev" alt='arrow-left' src='./SRC/assets/arrow-left-carousel.png'/>
-          <img onClick={nextSlide} className="next"  alt='arrow-right' src='./SRC/assets/arrow-right-carousel.png'/>
+          <img onClick={prevSlide} className="prev" alt='arrow-left' src='../SRC/assets/arrow-left-carousel.png'/>
+          <img onClick={nextSlide} className="next"  alt='arrow-right' src='../SRC/assets/arrow-right-carousel.png'/>
         </div>
       )}
       {totalSlides > 1 && (

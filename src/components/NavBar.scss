@@ -13,6 +13,8 @@ nav {
       list-style: none;
       display: flex;
       gap: 57px;
+      margin: 0;
+      padding: 0;
       li {
         a {
           text-decoration: none;
@@ -22,6 +24,26 @@ nav {
           &:hover,
           &.active{
             text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    nav{
+      margin: 4% 6%;
+      div{
+        img{
+          height: 46px;
+        }
+      }
+      ul{
+        gap: 8vw;
+        li{
+          a{
+            font-size: 3.2vw;
+            text-transform: uppercase;
           }
         }
       }

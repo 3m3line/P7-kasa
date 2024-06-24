@@ -3,6 +3,16 @@
     border-radius: 25px;
     padding: 56px 50px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colonnes de largeur égale */
+    grid-template-columns: repeat(3, 1fr);
     gap: 50px 60px;
+}
+
+@media screen and (max-width: 1100px) {
+    .LogtEncart {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    
 }

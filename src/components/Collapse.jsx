@@ -17,7 +17,7 @@ const Collapse = ({ collapseButton, collapseContenu }) => {
                 className={`collapse_arrow ${visible ? 'open':''}`}
                 />
             </div>
-            {visible && <p className='collapse-content'>{collapseContenu} </p>}
+            {visible && <div className='collapse-content'>{collapseContenu} </div>}
         </section>
     );
   };

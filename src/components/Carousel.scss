@@ -21,6 +21,12 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
+      .prev{
+        margin-left: 2%;
+      }
+      .next{
+        margin-right: 2%;
+      }
     }
   
     .pagination {

@@ -14,5 +14,10 @@
 }
 
 @media screen and (max-width: 720px) {
-    
+    .LogtEncart{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+        background-color: transparent;
+        gap: 6vw;
+    }
 }

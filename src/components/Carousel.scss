@@ -37,6 +37,26 @@
     }
   }
 
+  @media screen and (max-width: 720px){
+    .carousel {  
+      .carousel-images {
+        height: 255px;
+      }
+      .controls {
+        .prev{
+          width: 12px;
+          object-fit: contain;
+        }
+        .next{
+          width: 12px;
+          object-fit: contain;
+        }
+      }
+      .pagination {
+        display: none;
+      }
+    }
+  }
 
 
 

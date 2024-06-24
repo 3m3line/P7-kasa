@@ -32,6 +32,20 @@
     }
   }
   
+  @media screen and (max-width: 720px) {
+    .banner{
+      height: 111px;
+      border-radius: 10px;
+      .overlay{
+        border-radius: 10px;
+      }
+      .text{
+        font-size: 24px;
+        text-align: left;
+        padding: 5vw;        
+      }
+    }
+  }
   
   
   

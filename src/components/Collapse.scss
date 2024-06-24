@@ -32,3 +32,20 @@
         box-sizing: border-box;
     }
 }
+
+@media screen and (max-width: 720px){
+    .collapse{
+        .collapse_btn{
+            padding: 1vw 2vw;
+            h2{
+                font-size: 3.5vw;
+            }
+            img{
+                height: 5.5vw;
+            }
+        }
+        .collapse-content{
+            font-size: 3.5vw;
+        }
+    }
+}

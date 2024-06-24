@@ -9,7 +9,7 @@ const Home = () => {
     <div className="content-page">
       <Banner 
         imageSrc="./SRC/assets/banniere-home.jpg"
-        texte="Chez vous, partout et ailleurs"
+        texte='Chez vous, partout et ailleurs'
       />
       <section className="LogtEncart">
         {LogtList.map((item) => (

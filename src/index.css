@@ -39,11 +39,10 @@ body {
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  box-sizing: border-box;
 }
-*{
+/* *{
   box-sizing: border-box;
-}
+} */
 
 #root {
   display: flex;
@@ -60,7 +59,6 @@ h1,h2,h3,h4,h5,h6,p{
   margin: 0px 100px;
 }
 
-.content-page>*,
-.content-page>*>*{
+.content-page>* {
   margin-bottom: 40px;
 }

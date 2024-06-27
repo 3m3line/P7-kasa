@@ -16,15 +16,12 @@ const Carousel = ({ pictures }) => {
   return (
     <div className="carousel">
       <div className="carousel-images">
-        {pictures.map((picture, index) => (
           <img
-            key={index}
-            src={picture}
-            alt={`Slide ${index + 1}`}
+            key={currentSlide}
+            src={pictures[currentSlide]}
+            alt={`Slide ${currentSlide + 1}`}
             className="slide"
-            style={{ display: index === currentSlide ? 'block' : 'none' }}
           />
-        ))}
       </div>
       {totalSlides > 1 && (
         <div className="controls">
